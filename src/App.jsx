@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 
-const API_BASE = 'https://raw.githubusercontent.com/MapleShaw/content-signal-radar/main'
+const API_BASE = 'https://raw.githubusercontent.com/RollingScallop/content-signal-radar/main'
 
 function App() {
   const [data, setData] = useState(null)
